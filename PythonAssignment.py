@@ -3,9 +3,7 @@ import datetime
 
 ########################################################################
 class MyCache:
-    """"""
 
-    # ----------------------------------------------------------------------
     def __init__(self):
         """Constructor"""
         self.cache = {}
@@ -63,6 +61,7 @@ class MyCache:
 
     @property
     def read(self):
+        """:return sorted dict on the basic of marks obtained """
         student_records = {}
         for key in self.cache:
             if key is not None:
@@ -74,6 +73,7 @@ ITEM_STRUCTURE = {"Name": "", "Maths": "", "Science": "", "id": ""}
 
 
 def sort_cache(dict):
+    """function which sort the dict items based on marks percentage(Derived attribute)"""
     def dict_val(x):
         return x[1]['percentage']
 
@@ -155,7 +155,7 @@ def delete():
 
 def exit():
     with open("pythondataset.txt", "w") as f:
-        data_str = " "
+        data_str = ""
         for item in cache.read:
             try:
                 name = (item[1]["Name"]).split(" ")[0] + "@" + (item[1]["Name"]).split(" ")[1]
@@ -183,16 +183,20 @@ if __name__ == '__main__':
         choices = ["add", "read", "update", "delete", "exit"]
         for i, choice in enumerate(choices):
             print str(i + 1) + " " + choice + "..."
-        user_choice = int(raw_input("Please enter your choice"))
-        if user_choice == 1:
-            add()
-        elif user_choice == 2:
-            read()
-        elif user_choice == 3:
-            update()
-        elif user_choice == 4:
-            delete()
-        elif user_choice == 5:
-            exit()
-        else:
-            print("wrong input")
+        try:
+            user_choice = int(raw_input("Please enter your choice"))
+            if user_choice == 1:
+                add()
+            elif user_choice == 2:
+                read()
+            elif user_choice == 3:
+                update()
+            elif user_choice == 4:
+                delete()
+            elif user_choice == 5:
+                exit()
+            else:
+                print("wrong input")
+
+        except ValueError:
+            print("Please enter valid option")

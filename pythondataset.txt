@@ -1,4 +1,4 @@
- prerna maths@100 science@99 id@120291006
+prerna maths@100 science@99 id@120291006
 ayushi maths@100 science@95 id@120291013
 gaurav@rajput maths@95 science@99 id@120291024
 ayushi maths@91 science@95 id@120291022
