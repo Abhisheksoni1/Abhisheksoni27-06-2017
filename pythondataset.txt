@@ -1,25 +1,20 @@
-abhishek@soni maths 85 science 78 computers 92 id 120291001
-ram maths 80 science 77 id 120291002
-ajay maths 88 science 99 id 120291003
-bob@markey maths 91 science 99 id 120291004
-ashu maths 92 science 89 id 120291005
-prerna maths 100 science 99 id 120291006
-shankar maths 05 science 11 id 120291007
-ravi maths 75 science 68 id 120291008
-ajay@singh maths 20 science 33 id 120291009
-vijay maths 90 science 88 id 120291010
-mohan maths 90 science 77 id 120291011
-gaurav@kansal maths 80 science 75 id 1202910012
-ayushi maths 100 science 95 id 120291013
-raghav maths 33 science 33 id 120291014
-sid maths 75 science 80 id 120291015
-jha maths 51 science 69 id 120291016
-aman maths 70 science 67 id 120291017
-prabhat maths 80 sciene 88 id 120291018
-amal maths 91 science 67 id 120291019
-subhi maths 91 science 91 id 120291020
-apurva maths 88 science 88 id 120291021
-ayushi maths 91 science 95 id 120291022
-keshav maths 87 science 77 id 120291023
-gaurav@rajput maths 95 science 99 id 120291024
-paras maths 77 science 88 id 120291025
+ prerna maths@100 science@99 id@120291006
+ayushi maths@100 science@95 id@120291013
+gaurav@rajput maths@95 science@99 id@120291024
+ayushi maths@91 science@95 id@120291022
+subhi maths@91 science@91 id@120291020
+vijay maths@90 science@88 id@120291010
+apurva maths@88 science@88 id@120291021
+mohan maths@90 science@77 id@120291011
+keshav maths@87 science@77 id@120291023
+amal maths@91 science@67 id@120291019
+prabhat maths@80 science@88 id@120291018
+paras maths@77 science@88 id@120291025
+gaurav@kansal maths@80 science@75 id@1202910012
+sid maths@75 science@80 id@120291015
+ravi maths@75 science@68 id@120291008
+aman maths@70 science@67 id@120291017
+jha maths@51 science@69 id@120291016
+raghav maths@33 science@33 id@120291014
+ajay@singh maths@20 science@33 id@120291009
+shankar maths@05 science@11 id@120291007
